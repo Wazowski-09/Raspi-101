@@ -1,0 +1,18 @@
+
+# MQTT Publish Demo
+# Publish two messages, to two different topics
+# -*- coding: utf-8 -*-
+import paho.mqtt.publish as publish
+
+hostname = "tailor.cloudmqtt.com"
+port = 14045
+auth = {
+ 'username':'ecxafhvn',
+ 'password':'T7rS3vGdFLvG'
+}
+#publish.single(topic="YO/test", payload="Hello", qos=0, retain=False, hostname="$
+#    port=14045, client_id="", keepalive=60, will=None, auth={'username':'ecxafhv$
+#    protocol=4, transport="tcp")
+publish.single("YO/mike/1", "Finish", hostname=hostname, port=port, auth=auth)
+publish.single("YO/topic", "World!", hostname=hostname, port=port, auth=auth)
+print("Done")
