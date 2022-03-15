@@ -180,3 +180,16 @@ sudo raspi-config
 sudo reboot
 sudo pip3 install adafruit-circuitpython-am2320
 ```
+# เมื่อ Ras-pi reboot เอง
+
+https://raspberrytips.com/rasbpberry-pi-on-all-the-time/#:~:text=Raspberry%20Pi%20can%20handle%2024,a%20proper%20linear%20power%20supply.
+
+https://forums.raspberrypi.com/viewtopic.php?t=234760
+
+https://raspberrypi.stackexchange.com/questions/44519/strange-rebooting-on-rpi-3
+
+https://forums.raspberrypi.com/viewtopic.php?t=172371
+
+https://smarthomepursuits.com/how-to-reboot-raspberry-pi-on-a-schedule/#:~:text=Why%20would%20you%20need%20to,a%20little%20sluggish%20over%20time.
+
+https://forums.raspberrypi.com/viewtopic.php?f=91&t=122601
