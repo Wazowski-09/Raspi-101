@@ -182,6 +182,10 @@ sudo pip3 install adafruit-circuitpython-am2320
 ```
 # เมื่อ Ras-pi reboot เอง
 
+raspberry pi running 24/7
+
+why raspberry pi reboot itself
+
 https://raspberrytips.com/rasbpberry-pi-on-all-the-time/#:~:text=Raspberry%20Pi%20can%20handle%2024,a%20proper%20linear%20power%20supply.
 
 https://forums.raspberrypi.com/viewtopic.php?t=234760
